@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>The return to the motherboard update news</title>
+<title>Qwaizor Games</title>
 <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 <!--[if 1t IE 9]>
 <script>
@@ -12,33 +12,55 @@ Document.createElement("nav");
 </script>
 <![endif]-->
 </head>
+    <center>
 <body>
+<script>
+function myFunction() {
+  var input, filter,  ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
 
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
     
 <header class="banner">
 <h1>Update News</h1>
 <P>Updates and the game</p>
 </header>
 <nav>
-<ul>
-<li><a href="index.php">Login</a></li>
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search..." title="Type in for topic">
+
+<ul id="myMenu">
+<li><a href="https://qwaizor-loginsignup.netlify.com/">Login/Signup</a></li>
 <li><a href="Game.html">Game</a></li>
+<li><a href="Afal.html">Asfal</a></li>
 <li><a href="Update%20Log.html">Update Log</a></li>
 <li><a href="Store.html">Store</a></li>
 <li><a href="Privacy%20Policy.html">Privacy Policy</a></li>
+    
 </ul>
 </nav>
-<img src="images/THERETURN.png" height="768" width="768">
-<img src="images/khinkali%20copy%203.png" height="698" width="768">
-<h2>Questions you may have!</h2>
-    <p>What happened to the enemy ship, as it went of the map?</p>
-    <p>Just click on the x button that looks like this:</p>
-    <img src="images/gameover%20copy.png" height="100" width="100">
-    <p>What does the code section do?</p>
-    <p>Well this is the section where you can write gamecheatcodes or funny eastereggs codes.</p>
-    <img src="images/Screenshot%20.png" height="113" width="100">
-    <a href="https://kalexcyp.wixsite.com/ainterr3games/forum">
-    <p1> The return to the motherboard forums </p1>
+    <img src="Untitled-1.png">
+    <br>
+    
+    <a href="https://top.gg/bot/699676503029448744" >   <img src="https://top.gg/api/widget/699676503029448744.svg" alt="Qwaizo-R-obot 2000" /> </a>
+    
+    <br>
+
+    
+    <a href="https://qwaizor-loginsignup.netlify.com/">
+    <p1> Support/Questions </p1>
 </a>
 </body>
+        </center>
 </html>
